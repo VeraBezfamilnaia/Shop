@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //TODO Single responsibility principle
-public class Customer extends Person { //TODO Liskov substitution principle
+public class Customer extends Person {
     private final List<Book> cart = new ArrayList<>();
 
     public Customer(long id, String name, int age) {

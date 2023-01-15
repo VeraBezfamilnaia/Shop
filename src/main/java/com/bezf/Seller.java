@@ -1,7 +1,7 @@
 package com.bezf;
 
 //TODO Single responsibility principle
-public class Seller extends Person { //TODO Liskov substitution principle
+public class Seller extends Person {
     private final BookShop shop;
 
     public Seller(long id, String name, int age, BookShop shop) {
